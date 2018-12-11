@@ -1,0 +1,7 @@
+"0","data_clean <-
+  data %>%
+  filter(!(Country %in% countries_with_missing_data))
+"
+"2","Error in filter_impl(.data, quo) : 
+  Evaluation error: object 'countries_with_missing_data' not found.
+"
